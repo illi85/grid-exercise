@@ -2,3 +2,57 @@
   padding: 0;
   margin: 0;
 }
+
+.wrapper {
+  background-color: #101010;
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 180px;
+  text-transform: uppercase;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  width: 533px;
+  height: 300px;
+  align-items: center;
+  font-size: 30px;
+}
+
+.web-dev {
+  background-image: url(./img/web-development.jpg);
+}
+
+.mob-dev {
+  background-image: url(./img/mobile-development.jpg);
+}
+
+.blockchain {
+  background-image: url(./img/blockchain-development.jpg);
+}
+
+.product-mng {
+  background-image: url(./img/product-management.jpg);
+}
+
+.software {
+  background-image: url(./img/software.jpg);
+}
+
+.digital {
+  background-image: url(./img/digital.jpg);
+}
+
+.data-science {
+  background-image: url(./img/data-science.jpg);
+}
+
+.testing {
+  background-image: url(./img/testing.png);
+}
