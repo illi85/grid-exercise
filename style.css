@@ -30,6 +30,7 @@
   font-size: 45px;
   position: relative;
   z-index: 2;
+  text-align: center;
 }
 .card > h3 {
   width: 465px;
@@ -92,4 +93,54 @@
   position: relative;
   top: 100px;
   left: 50px;
+}
+
+@media (max-width: 1710px) {
+  .title {
+    font-size: 35px;
+    margin: 0 35px;
+  }
+  .cards {
+    width: auto;
+    gap: 20px;
+    grid-template-rows: repeat(4, 300px);
+  }
+  .web-dev {
+    grid-column: 3 / 7;
+  }
+  .mob-dev {
+    grid-column: 7 / 11;
+  }
+  .blockchain {
+    grid-row: 2 / 2;
+    grid-column: 3 / 7;
+  }
+  .product-mng {
+    grid-row: 2 / 2;
+    grid-column: 7 / 11;
+  }
+  .software {
+    grid-row: 3 / 3;
+    grid-column: 3 / 7;
+  }
+  .digital {
+    grid-row: 3 / 3;
+    grid-column: 7 / 11;
+  }
+  .data-science {
+    grid-row: 4 / 4;
+    grid-column: 3 / 7;
+  }
+  .testing {
+    grid-row: 4 / 4;
+    grid-column: 7 / 11;
+  }
+}
+
+@media (max-width: 1200px) {
+  .text-bg {
+    height: 100px;
+    left: 110px;
+    top: 80px;
+  }
 }
